@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 import uuidv1 from  'uuid/v1';
 import AddTask from './AddTask';
-import TasList from './TaskList';
+import TaskList from './TaskList';
 import data from './dataMask';
 
 class TodoList extends React.Component {

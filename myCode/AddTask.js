@@ -1,6 +1,5 @@
 import React from 'react';
-import { View, Alert } from 'react-native';
-import { Input, Text, Button } from 'react-native-elements';
+import { TextInput, View, Alert, Button, Text } from 'react-native';
 
 class AddTask extends React.Component {
 
@@ -22,7 +21,7 @@ class AddTask extends React.Component {
         <Text>
           请输入新任务：
         </Text>
-        <Input placeholder='请输入新任务' onChangeText={this.handleChange} />
+        <TextInput placeholder='请输入新任务' onChangeText={this.handleChange} />
         <Button title='添加' onPress={this.handlePress} />
       </View>
     );

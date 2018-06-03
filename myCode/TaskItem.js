@@ -1,6 +1,6 @@
 import React from 'react';
-import { View } from 'react-native';
-import { CheckBox, Button } from 'react-native-elements';
+import { View, Button } from 'react-native';
+import { CheckBox } from 'react-native-elements';
 
 class TaskItem extends React.Component {
     
